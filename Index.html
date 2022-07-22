@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Netflix</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="Style/style.css" />
+  <link rel="stylesheet" href="./Style/normalize.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <section class="container-fluid">
+    <header class="showcase  ">
+      <div class="showcase-top img-fluid">
+        <img src="Image/logo.png" class="img-fluid" alt="Netflix Logo" />
+        <select data-uia="language-picker-header" class="ui-select medium" id="lang-switcher-header-select" tabindex="0"
+          placeholder="lang-switcher">
+          <option selected="" lang="en" value="/in/" data-language="en" data-country="IN">
+            English
+          </option>
+          <option lang="hi" value="/in-hi/" data-language="hi" data-country="IN">
+            हिन्दी
+          </option>
+        </select>
+        <a href="#" class="btn btn-rounded">Sign In</a>
+      </div>
+      <div class="showcase-content ">
+        <h1>Unlimited movies, TV shows and more.</h1>
+        <h3>All of Netflix, starting at just ₹ 199.</h3>
+        <p>
+          Ready to watch? Enter your email to create or restart your
+          membership.
+        </p>
+        <input type="email" name="email" id="mail" placeholder="Email address" />
+        <div class="btnn btnnn">
+          <a href="#" class="btn   btn-frst">GET STARTED ></a>
+        </div>
+      </div>
+    </header>
+    <section class="style-cards ">
+
+      <div class="card-0 ">
+        <div class="desc-0 col ">
+          <h1>Enjoy on your TV.</h1>
+          <h3>
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+            Blu-ray players and more.
+          </h3>
+        </div>
+        <img src="Image/tv.png" alt="Netflix TV" />
+        <video class="video-1" autoplay="" playsinline="" muted="" loop="">
+          <source src="Image/1.m4v" type="video/mp4" />
+        </video>
+      </div>
+
+      <div class="card-1  ">
+        <img src="Image/Mobile Phone.jpeg" alt="Netflix Mobile" />
+        <div class="desc-1">
+          <h1>Download your shows to watch offline.</h1>
+          <h3>
+            Save your favourites easily and always have something to watch.
+          </h3>
+        </div>
+      </div>
+
+      <div class="card-2 ">
+        <div class="desc-2">
+          <h1>Watch everywhere.</h1>
+          <h3>
+            Stream unlimited movies and TV shows on your phone, tablet,
+            laptop, and TV.
+          </h3>
+        </div>
+        <img src="Image/Monitor.png" alt="Device-Pile-In" />
+        <video class="video-2" autoplay="" playsinline="" muted="" loop="">
+          <source src="Image/2.m4v" type="video/mp4" />
+        </video>
+      </div>
+
+      <div class="card-3 ">
+        <img src="Image/Children.png" alt="Netflix Mobile" />
+        <div class="desc-3">
+          <h1>Create profiles for kids.</h1>
+          <h3>
+            Send kids on adventures with their favourite characters in a space
+            made just for them—free with your membership.
+          </h3>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section class="container-fluid ">
+    <div class="row">
+      <div class="faq accordian-body">
+        <h1>Frequently Asked Questions</h1>
+      </div>
+      <div class="demo  ">
+        <div class="panel-group   " id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  <i class="more-less glyphicon glyphicon-plus"></i>
+                  What is Netflix?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">
+                Ready to watch? Enter your email to create or restart your
+                membership.
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  <i class="more-less glyphicon glyphicon-plus"></i>
+                  How much does Netflix cost?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
+                Ready to watch? Enter your email to create or restart your
+                membership.
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  <i class="more-less glyphicon glyphicon-plus"></i>
+                  Where can I watch?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body">
+                Ready to watch? Enter your email to create or restart your
+                membership.
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingFour">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"
+                  aria-expanded="false" aria-controls="collapseFour">
+                  <i class="more-less glyphicon glyphicon-plus"></i>
+                  How do I cancel?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+              <div class="panel-body">
+                Ready to watch? Enter your email to create or restart your
+                membership.
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingFive">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive"
+                  aria-expanded="false" aria-controls="collapseFive">
+                  <i class="more-less glyphicon glyphicon-plus"></i>
+                  What can I watch on Netflix?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+              <div class="panel-body">
+                Ready to watch? Enter your email to create or restart your
+                membership.
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingSix">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix"
+                  aria-expanded="false" aria-controls="collapseSix">
+                  <i class="more-less glyphicon glyphicon-plus"></i>
+                  Is Netflix good for kids?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+              <div class="panel-body">
+                Ready to watch? Enter your email to create or restart your
+                membership.
+              </div>
+            </div>
+          </div>
+        </div><!-- panel-group -->
+      </div>
+    </div>
+  </section>
+
+  </div><!-- container -->
+  <div class="showcase-last  text-center">
+    <p>
+      Ready to watch? Enter your email to create or restart your
+      membership.
+    </p>
+    <input type="email" name="email" id="mail" placeholder="Email address" />
+    <div class="btnn">
+      <a href="#" class="btn   btn-lst">GET STARTED ></a>
+    </div>
+
+  </div>
+
+  </section>
+  <footer>
+    <section class="container-fluid">
+      <div class="row">
+        <div class="container">
+          <div class="footer">
+            <p>Questions? Call 000-800-040-1843</p>
+            <div class="footer-cols">
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Speed Test</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Help Centre</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Watch for Free</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Ways to Watch</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Legal Notices</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Media Centre</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Netflix Originals</a></li>
+              </ul>
+            </div>
+            <div class="f-btn ">
+              <select data-uia="language-picker-header" class="ui-select-f medium" id="lang-switcher-header-select"
+                tabindex="0" placeholder="lang-switcher">
+                <option selected="" lang="en" value="/in/" data-language="en" data-country="IN">
+                  English
+                </option>
+                <option lang="hi" value="/in-hi/" data-language="hi" data-country="IN">
+                  हिन्दी
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="last container-sm container">
+          <h6>Netflix India</h6>
+        </div>
+      </div>
+    </section>
+  </footer>
+</body>
+
+</html>
